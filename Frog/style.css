@@ -1,0 +1,500 @@
+/*sorted according to index.html*/
+.background-bottom {
+  background-color: #e6ead2;
+  width: 65%;
+  height: 350px;
+  left: 270px;
+  top: 250px;
+  border-radius: 0 0 50% 50%;
+  position: absolute;
+}
+.background {
+  background-color: #e6ead2;
+  width: 100%;
+  height: 470px;
+  position: relative;
+}
+.frog {
+  align-content: center;
+}
+
+/*body of the frog*/
+.body {
+  background-color: #d4d4d4;
+  width: 400px;
+  height: 182px;
+  left: 625px;
+  top: 300px;
+  border-radius: 0% 0% 150px 150px;
+  position: relative;
+  z-index: 10;
+}
+.jaw {
+  background-color: rgb(231, 230, 230);
+  width: 550px;
+  height: 175px;
+  left: 550px;
+  top: 190px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 10;
+}
+
+/*head part including eyes, nose*/
+.head {
+  background-color: #cae256;
+  width: 630px;
+  height: 100px;
+  left: 500px;
+  top: 200px;
+  border-radius: 30% 30% 50% 50%;
+  border-bottom: 18px solid white;
+  position: absolute;
+  z-index: 15;
+}
+.nose {
+  position: relative;
+}
+.nose_left {
+  background-color: #8fd747;
+  width: 20px;
+  height: 20px;
+  left: 285px;
+  top: 70px;
+  border-radius: 50%;
+  position: absolute;
+}
+.nose_right {
+  background-color: #8fd747;
+  width: 20px;
+  height: 20px;
+  left: 325px;
+  top: 70px;
+  border-radius: 50%;
+  position: absolute;
+}
+.shine_left {
+  background-color: rgb(255, 255, 255);
+  opacity: 50%;
+  width: 20px;
+  height: 20px;
+  left: 55px;
+  top: 25px;
+  border-radius: 50%;
+  position: absolute;
+}
+.shine_right {
+  background-color: rgb(255, 255, 255);
+  opacity: 50%;
+  width: 20px;
+  height: 20px;
+  left: 315px;
+  top: -15px;
+  border-radius: 50%;
+  position: absolute;
+}
+.eyes {
+  background-color: #8fd747;
+  width: 200px;
+  height: 45px;
+  left: 220px;
+  top: -45px;
+  position: relative;
+}
+.pupil_left {
+  background-color: rgb(0, 0, 0);
+  width: 20px;
+  height: 55px;
+  left: 40px;
+  top: 20px;
+  border-radius: 600% 600%;
+  transform: rotate(90deg);
+  position: absolute;
+}
+.pupil_right {
+  background-color: rgb(0, 0, 0);
+  width: 20px;
+  height: 55px;
+  left: 40px;
+  top: 20px;
+  border-radius: 600% 600%;
+  transform: rotate(90deg);
+  position: absolute;
+}
+.eye_left {
+  background-color: #eb5530;
+  outline: 10px solid #cae256;
+  border: 10px solid black;
+  width: 100px;
+  height: 100px;
+  left: -180px;
+  top: -50px;
+  border-radius: 50%;
+  position: absolute;
+}
+.eye_right {
+  background-color: #eb5530;
+  outline: 10px solid #cae256;
+  border: 10px solid black;
+  width: 100px;
+  height: 100px;
+  left: 250px;
+  top: -50px;
+  border-radius: 50%;
+  position: absolute;
+}
+.eyelid_left {
+  background-color: #cae256;
+  width: 195px;
+  height: 150px;
+  border-radius: 0 150% 0 0;
+  left: -125px;
+  top: -60px;
+  position: absolute;
+}
+.eyelid_right {
+  background-color: #cae256;
+  width: 195px;
+  height: 150px;
+  left: 110px;
+  top: -60px;
+  border-radius: 150% 0 0;
+  position: absolute;
+}
+.moon_left {
+  box-shadow: 13px 13px 0 0 black;
+  opacity: 10%;
+  width: 100px;
+  height: 100px;
+  left: -174px;
+  top: -47px;
+  border-radius: 50%;
+  transform: rotate(15deg);
+  position: absolute;
+}
+.moon_right {
+  box-shadow: 13px 13px 0 0 black;
+  opacity: 10%;
+  width: 100px;
+  height: 100px;
+  left: 255px;
+  top: -49px;
+  border-radius: 50%;
+  position: absolute;
+  transform: rotate(15deg);
+}
+
+/*arms of the frog*/
+.arm_left {
+  background-color: #cae256;
+  width: 250px;
+  height: 65px;
+  left: 380px;
+  top: 335px;
+  border-radius: 50% 0 0 50%;
+  transform: rotate(-25deg);
+  position: absolute;
+  z-index: 6;
+}
+.forearm_left {
+  background-color: #cae256;
+  width: 75px;
+  height: 150px;
+  left: -40px;
+  top: 20px;
+  border-radius: 120px 0 0 180px;
+  transform: rotate(25deg);
+  position: relative;
+  z-index: 2;
+}
+.armdetail_left {
+  border-bottom: 25px solid #8fd747;
+  border-right: 25px solid transparent;
+  width: 80px;
+  height: 0;
+  left: -30px;
+  top: 89px;
+  transform: rotate(-65deg);
+  position: absolute;
+  z-index: 3;
+}
+.hand_left {
+  background-color: #fdb83a;
+  width: 70px;
+  height: 80px;
+  left: -34px;
+  top: 102px;
+  border-radius: 90px 0 0 0;
+  position: absolute;
+  z-index: 4;
+}
+.finger1 {
+  background-color: #fdb83a;
+  width: 30px;
+  height: 70px;
+  left: -20px;
+  top: 60px;
+  position: absolute;
+  transform: rotate(35deg);
+  z-index: 4;
+}
+.finger2 {
+  background-color: #fdb83a;
+  width: 30px;
+  height: 105px;
+  left: 25px;
+  top: 60px;
+  position: absolute;
+  transform: rotate(-5deg);
+  z-index: 4;
+}
+.finger3 {
+  background-color: #fdb83a;
+  width: 30px;
+  height: 75px;
+  left: 62px;
+  top: 60px;
+  position: absolute;
+  transform: rotate(-35deg);
+  z-index: 4;
+}
+.fingertip1 {
+  background-color: #fdb83a;
+  width: 40px;
+  height: 30px;
+  left: -5px;
+  top: 40px;
+  border-radius: 50%;
+  border-bottom: 10px solid rgba(0, 0, 100, 0.075);
+  position: absolute;
+  z-index: 4;
+}
+.fingertip2 {
+  background-color: #fdb83a;
+  width: 40px;
+  height: 30px;
+  left: -5px;
+  top: 85px;
+  border-radius: 90% 90%;
+  border-bottom: 10px solid rgba(0, 0, 100, 0.075);
+  position: absolute;
+  z-index: 4;
+}
+.fingertip3 {
+  background-color: #fdb83a;
+  width: 40px;
+  height: 30px;
+  left: -5px;
+  top: 50px;
+  border-radius: 50%;
+  border-bottom: 10px solid rgba(0, 0, 100, 0.075);
+  position: absolute;
+  z-index: 4;
+}
+.arm_right {
+  background-color: #cae256;
+  width: 250px;
+  height: 65px;
+  left: 1000px;
+  top: 335px;
+  border-radius: 50% 0 0 50%;
+  transform: rotate(205deg);
+  position: absolute;
+  z-index: 6;
+}
+.forearm_right {
+  background-color: #cae256;
+  width: 75px;
+  height: 150px;
+  left: -50px;
+  top: -110px;
+  border-radius: 180px 0 0 120px;
+  transform: rotate(-25deg);
+  position: relative;
+  z-index: 2;
+}
+.armdetail_right {
+  border-bottom: 25px solid #8fd747;
+  border-left: 25px solid transparent;
+  width: 80px;
+  height: 0;
+  left: -36px;
+  top: -47px;
+  transform: rotate(-115deg);
+  position: absolute;
+  z-index: 3;
+}
+.hand_right {
+  background-color: #fdb83a;
+  width: 70px;
+  height: 85px;
+  left: -40px;
+  top: -120px;
+  border-radius: 0 0 0 90px;
+  position: absolute;
+  z-index: 4;
+}
+.finger4 {
+  background-color: #fdb83a;
+  width: 30px;
+  height: 70px;
+  left: -20px;
+  top: -55px;
+  position: absolute;
+  transform: rotate(-35deg);
+  z-index: 4;
+}
+.finger5 {
+  background-color: #fdb83a;
+  width: 30px;
+  height: 105px;
+  left: 25px;
+  top: -95px;
+  position: absolute;
+  transform: rotate(5deg);
+  z-index: 4;
+}
+.finger6 {
+  background-color: #fdb83a;
+  width: 30px;
+  height: 75px;
+  left: 62px;
+  top: -55px;
+  position: absolute;
+  transform: rotate(35deg);
+  z-index: 4;
+}
+.fingertip4 {
+  background-color: #fdb83a;
+  width: 40px;
+  height: 30px;
+  left: -5px;
+  top: -25px;
+  border-radius: 50%;
+  border-top: 10px solid rgba(0, 0, 100, 0.075);
+  position: absolute;
+  z-index: 4;
+}
+.fingertip5 {
+  background-color: #fdb83a;
+  width: 40px;
+  height: 30px;
+  left: -5px;
+  top: -25px;
+  border-radius: 90% 90%;
+  border-top: 10px solid rgba(0, 0, 100, 0.075);
+  position: absolute;
+  z-index: 4;
+}
+.fingertip6 {
+  background-color: #fdb83a;
+  width: 40px;
+  height: 30px;
+  left: -5px;
+  top: -25px;
+  border-radius: 50%;
+  border-top: 10px solid rgba(0, 0, 100, 0.075);
+  position: absolute;
+  z-index: 4;
+}
+
+/*legs of the frog*/
+.leg_left {
+  background-color: #00929a;
+  width: 380px;
+  height: 130px;
+  left: 330px;
+  top: 260px;
+  border-radius: 90%;
+  transform: rotate(20deg);
+  position: absolute;
+  overflow: hidden;
+  z-index: 5;
+}
+.shadow_left {
+  background-color: #01666b;
+  opacity: 50%;
+  width: 360px;
+  height: 60px;
+  top: 95px;
+  position: absolute;
+}
+.foot_left {
+  background-color: #00929a;
+  width: 475px;
+  height: 61px;
+  left: 271px;
+  top: 409px;
+  border-radius: 50% 0 0 50%;
+  position: absolute;
+  overflow: hidden;
+  z-index: 5;
+}
+.foot_shadow_left {
+  background-color: #01666b;
+  opacity: 50%;
+  width: 410px;
+  height: 60px;
+  left: 70px;
+  top: 50px;
+  position: absolute;
+}
+.toe_left {
+  background-color: #00929a;
+  width: 81px;
+  height: 81px;
+  left: 260px;
+  top: 425px;
+  border-radius: 50% 0% 50% 50%;
+  transform: rotate(-6deg);
+  position: absolute;
+}
+.leg_right {
+  background-color: #00929a;
+  width: 360px;
+  height: 130px;
+  left: 950px;
+  top: 260px;
+  border-radius: 90%;
+  transform: rotate(160deg);
+  position: absolute;
+  overflow: hidden;
+  z-index: 5;
+}
+.shadow_right {
+  background-color: #01666b;
+  opacity: 50%;
+  width: 360px;
+  height: 60px;
+  top: -40px;
+  position: absolute;
+}
+.foot_right {
+  background-color: #00929a;
+  width: 475px;
+  height: 61px;
+  left: 911px;
+  top: 409px;
+  border-radius: 0 50% 50% 0;
+  position: absolute;
+  overflow: hidden;
+  z-index: 5;
+}
+.foot_shadow_right {
+  background-color: #01666b;
+  opacity: 50%;
+  width: 405px;
+  height: 60px;
+  top: 50px;
+  position: absolute;
+}
+.toe_right {
+  background-color: #00929a;
+  width: 80px;
+  height: 80px;
+  left: 1315px;
+  top: 423px;
+  border-radius: 0% 50% 50% 50%;
+  transform: rotate(6deg);
+  position: absolute;
+}
